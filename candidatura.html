@@ -14,29 +14,33 @@ margin:0;
 header{
 background:#006400;
 color:white;
-padding:25px;
 text-align:center;
+padding:25px;
 }
 
-.formulario{
+.container{
 background:white;
 margin:20px;
 padding:20px;
 border-radius:10px;
 }
 
-input, select, textarea{
+input, textarea, select{
 width:100%;
-padding:10px;
+padding:12px;
 margin:8px 0;
+border-radius:5px;
+border:1px solid #ccc;
 }
 
-button{
+.botao{
+display:inline-block;
 background:#006400;
 color:white;
-padding:12px;
-border:0;
+padding:12px 20px;
 border-radius:5px;
+text-decoration:none;
+margin-top:15px;
 }
 
 footer{
@@ -44,8 +48,8 @@ background:#222;
 color:white;
 text-align:center;
 padding:15px;
+margin-top:20px;
 }
-
 </style>
 
 </head>
@@ -54,29 +58,34 @@ padding:15px;
 
 <header>
 <h1>📄 Candidatura GlobalBridge</h1>
-<p>Envie os seus dados para oportunidades de emprego</p>
+<p>Candidate-se para oportunidades nacionais e internacionais</p>
 </header>
 
 
-<div class="formulario">
+<div class="container">
 
-<h2>Formulário de candidato</h2>
+<h2>Formulário do candidato</h2>
 
 <label>Nome completo</label>
 <input type="text" placeholder="Digite seu nome">
 
 
-<label>Email ou WhatsApp</label>
-<input type="text" placeholder="Contacto">
+<label>WhatsApp</label>
+<input type="text" placeholder="Seu contacto">
 
 
-<label>País onde pretende trabalhar</label>
+<label>Email</label>
+<input type="email" placeholder="Seu email">
+
+
+<label>País desejado</label>
 
 <select>
 <option>Portugal</option>
 <option>Alemanha</option>
 <option>Holanda</option>
 <option>Canadá</option>
+<option>Angola</option>
 <option>Outro</option>
 </select>
 
@@ -89,6 +98,7 @@ padding:15px;
 <option>Armazém e Logística</option>
 <option>Agricultura</option>
 <option>Limpeza</option>
+<option>Motorista</option>
 </select>
 
 
@@ -97,20 +107,24 @@ padding:15px;
 <textarea placeholder="Descreva sua experiência"></textarea>
 
 
-<label>Link do currículo (opcional)</label>
+<label>Link do currículo</label>
 
 <input type="text" placeholder="Cole o link do seu currículo">
 
 
-<button>Enviar candidatura</button>
+<a class="botao" href="https://wa.me/244SEUNUMERO?text=Olá%20GlobalBridge,%20quero%20fazer%20uma%20candidatura%20para%20uma%20vaga.">
+Enviar candidatura pelo WhatsApp
+</a>
+
 
 </div>
 
 
 <footer>
-© 2026 GlobalBridge
+© 2026 GlobalBridge - O futuro da mobilidade mundial
 </footer>
 
 
 </body>
 </html>
+
