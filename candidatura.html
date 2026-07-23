@@ -1,47 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Candidatura - GlobalBridge</title>
 
 <style>
 body{
 font-family:Arial;
-background:#f4f6f8;
+background:#f4f4f4;
 margin:0;
 }
 
 header{
-background:#003366;
+background:#006400;
 color:white;
+padding:25px;
 text-align:center;
-padding:20px;
 }
 
-.container{
-padding:20px;
-}
-
-form{
+.formulario{
 background:white;
+margin:20px;
 padding:20px;
 border-radius:10px;
 }
 
-input,select,textarea{
+input, select, textarea{
 width:100%;
-padding:12px;
+padding:10px;
 margin:8px 0;
 }
 
 button{
-background:#008000;
+background:#006400;
 color:white;
 padding:12px;
 border:0;
-width:100%;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
 }
 
 </style>
@@ -51,23 +53,32 @@ width:100%;
 <body>
 
 <header>
-<h1>🌍 GlobalBridge</h1>
-<p>Candidatura para oportunidades internacionais</p>
+<h1>📄 Candidatura GlobalBridge</h1>
+<p>Envie os seus dados para oportunidades de emprego</p>
 </header>
 
 
-<div class="container">
+<div class="formulario">
 
-<h2>Enviar candidatura</h2>
-
-<form>
+<h2>Formulário de candidato</h2>
 
 <label>Nome completo</label>
 <input type="text" placeholder="Digite seu nome">
 
 
-<label>País</label>
-<input type="text" placeholder="Ex: Angola">
+<label>Email ou WhatsApp</label>
+<input type="text" placeholder="Contacto">
+
+
+<label>País onde pretende trabalhar</label>
+
+<select>
+<option>Portugal</option>
+<option>Alemanha</option>
+<option>Holanda</option>
+<option>Canadá</option>
+<option>Outro</option>
+</select>
 
 
 <label>Área profissional</label>
@@ -81,22 +92,25 @@ width:100%;
 </select>
 
 
-<label>WhatsApp</label>
-<input type="text" placeholder="Número WhatsApp">
+<label>Experiência profissional</label>
+
+<textarea placeholder="Descreva sua experiência"></textarea>
 
 
-<label>Mensagem</label>
-<textarea placeholder="Conte sua experiência"></textarea>
+<label>Link do currículo (opcional)</label>
+
+<input type="text" placeholder="Cole o link do seu currículo">
 
 
-<button>
-Enviar candidatura
-</button>
-
-</form>
-
+<button>Enviar candidatura</button>
 
 </div>
+
+
+<footer>
+© 2026 GlobalBridge
+</footer>
+
 
 </body>
 </html>
