@@ -1,33 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-<title>GlobalBridge - Empregos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empregos Globais - GlobalBridge</title>
 
 <style>
-body {
+body{
     font-family: Arial, sans-serif;
-    text-align: center;
-    background: #f4f7fb;
-    margin: 0;
+    margin:0;
+    background:#f4f6f8;
+    color:#222;
 }
 
-header {
-    background: #0b3d91;
-    color: white;
-    padding: 30px;
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 
-.card {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+header img{
+    width:90px;
 }
 
-a {
-    color: #0b3d91;
-    text-decoration: none;
-    font-weight: bold;
+nav{
+    background:#0055aa;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+.container{
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 2px 5px #ccc;
+}
+
+.botao{
+    background:#008000;
+    color:white;
+    padding:10px 15px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
 </style>
 
@@ -36,28 +69,82 @@ a {
 <body>
 
 <header>
-<h1>🌍 Empregos Globais</h1>
-<p>Encontre oportunidades de trabalho pelo mundo</p>
+<img src="imagens/logo.png">
+<h1>🌍 GlobalBridge</h1>
+<p>Empregos internacionais e oportunidades globais</p>
 </header>
 
-<div class="card">
-<h2>Construção Civil</h2>
-<p>Vagas para serventes, pedreiros, soldadores e ajudantes.</p>
-</div>
+<nav>
+<a href="index.html">Inicio</a>
+<a href="vagas.html">Vagas</a>
+<a href="vistos.html">Vistos</a>
+<a href="voos.html">Voos</a>
+</nav>
+
+
+<div class="container">
+
+<h2>🌍 Empregos Internacionais</h2>
 
 <div class="card">
-<h2>Armazém e Logística</h2>
-<p>Oportunidades em armazenamento, transporte e distribuição.</p>
+<h3>🏗️ Construção Civil</h3>
+<p>Oportunidades para serventes, pedreiros, soldadores e ajudantes de construção.</p>
+
+<p>Procure vagas oficiais em:</p>
+
+<a class="botao" href="https://eures.europa.eu/" target="_blank">
+EURES - Empregos Europa
+</a>
+
 </div>
+
 
 <div class="card">
-<h2>Agricultura e Limpeza</h2>
-<p>Trabalhos internacionais com possibilidade de contratação.</p>
+<h3>📦 Armazém e Logística</h3>
+<p>Vagas para operadores de armazém, embaladores, carregadores e distribuição.</p>
+
+<a class="botao" href="https://www.europelanguagejobs.com/" target="_blank">
+Pesquisar vagas
+</a>
+
 </div>
 
-<br>
 
-<a href="index.html">⬅ Voltar para página inicial</a>
+<div class="card">
+<h3>🌱 Agricultura</h3>
+<p>Trabalhos sazonais em fazendas e produção agrícola.</p>
+
+<a class="botao" href="https://seasonalworkvisa.com/" target="_blank">
+Trabalho agrícola
+</a>
+
+</div>
+
+
+<div class="card">
+<h3>🧹 Limpeza</h3>
+<p>Serviços de limpeza em empresas, hotéis e residências.</p>
+
+<a class="botao" href="https://eures.europa.eu/" target="_blank">
+Ver oportunidades
+</a>
+
+</div>
+
+
+<h2>⚠️ Atenção</h2>
+<p>
+A GlobalBridge não cobra para conseguir emprego.
+Sempre confirme contratos, empresas e vistos através dos sites oficiais.
+</p>
+
+
+</div>
+
+
+<footer>
+© 2026 GlobalBridge - O futuro da mobilidade mundial
+</footer>
 
 </body>
 </html>
