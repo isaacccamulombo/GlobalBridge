@@ -10,11 +10,11 @@
 
 <style>
 body{
-font-family: Arial;
-background:#f2f7f3;
+font-family: Arial, sans-serif;
+background:#f2f7f2;
 }
 
-.caixa{
+.login-box{
 width:90%;
 max-width:400px;
 margin:50px auto;
@@ -22,33 +22,37 @@ background:white;
 padding:30px;
 border-radius:15px;
 box-shadow:0 0 15px #ccc;
+text-align:center;
 }
 
 h2{
-text-align:center;
-color:#087830;
+color:#0b7a3b;
 }
 
 input{
-width:100%;
+width:90%;
 padding:12px;
-margin:10px 0;
+margin:10px;
 border:1px solid #ccc;
 border-radius:8px;
 }
 
 button{
-width:100%;
-padding:12px;
-background:#087830;
+background:#0b7a3b;
 color:white;
+padding:12px 30px;
 border:none;
 border-radius:8px;
-font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#095c2d;
 }
 
 a{
-color:#087830;
+color:#0b7a3b;
+text-decoration:none;
 }
 </style>
 
@@ -56,30 +60,51 @@ color:#087830;
 
 <body>
 
-<div class="caixa">
+<header>
+
+<h1>GlobalBridge</h1>
+<p>Ligando talentos a oportunidades no mundo</p>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="empregos.html">Empregos</a>
+<a href="cadastro.html">Cadastro</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+
+</header>
+
+
+<div class="login-box">
 
 <h2>Entrar na GlobalBridge</h2>
 
 <form>
 
-<input type="email" placeholder="Seu email">
+<input type="email" placeholder="Digite seu e-mail" required>
 
-<input type="password" placeholder="Sua senha">
+<input type="password" placeholder="Digite sua senha" required>
 
-<button type="submit">
-Entrar
-</button>
+<button type="submit">Entrar</button>
 
 </form>
 
 <p>
 Ainda não tem conta?
-<a href="cadastro.html">
-Criar cadastro
-</a>
+<a href="cadastro.html">Criar cadastro</a>
 </p>
 
 </div>
+
+
+<footer>
+
+<p>
+© 2026 GlobalBridge - Criando pontes para o futuro
+</p>
+
+</footer>
+
 
 </body>
 </html>
